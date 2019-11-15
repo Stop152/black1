@@ -1,0 +1,38 @@
+
+class Car{
+	String color;
+	int speed;
+	String name;
+	
+	void drive(){ 
+		System.out.println("drive name  " + this.name);
+	}
+	
+	String driveOnASpecificLigth(int speed, String ligth){
+		return "Driving on  " + ligth + " with speed " + speed;
+		
+	}
+}
+
+public class Repeating {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Car myCar = new Car();
+		myCar.name = "MySuperDuperCar";
+		myCar.drive();
+		
+		String msg = myCar.driveOnASpecificLigth(56, "red");
+		System.out.println(msg);
+		
+		Car stolenCar = new Car();
+		stolenCar.name = "StolenCar";
+		stolenCar.drive();
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

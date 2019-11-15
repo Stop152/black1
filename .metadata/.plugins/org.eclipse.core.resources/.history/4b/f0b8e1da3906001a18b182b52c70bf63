@@ -1,0 +1,41 @@
+class Employee {
+
+	double salary;
+	double totalMoney;
+	String name;
+	String work;
+
+	String info() {
+		return "The " + name + " salary is increased by " + salary
+				+ "  The total earned amonut is  " + totalMoney;
+	}
+
+	public Employee() {
+		this("John", "cook", 1000);
+		
+	}
+
+	
+	public Employee(String name, String work, double salary) {
+		this.work = work;
+		this.name = name;
+		this.salary = salary;
+	}
+
+	public void summa() {
+		totalMoney = totalMoney + salary;
+		}
+	
+	public static void main(String[] args) {
+
+		Employee he = new Employee();
+		Employee she = new Employee("Anna", "cook", 1500);
+		
+				
+		
+		System.out.println(he.info());
+		System.out.println(she.info());
+
+	}
+
+}
