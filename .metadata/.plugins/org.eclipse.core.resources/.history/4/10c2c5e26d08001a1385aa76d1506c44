@@ -1,0 +1,19 @@
+
+public class StaticMethod1 {
+
+	public static int sum(int arg1, int arg2){
+		return arg1 + arg2;
+	}	
+	
+	public static int sumArrayValues(int[] myArray){
+		return 0 ;		
+	}
+	
+	
+	public static void main(String[] args) {
+		int sum = sum (1,2);
+		System.out.print(sum);
+		
+	}
+
+}
