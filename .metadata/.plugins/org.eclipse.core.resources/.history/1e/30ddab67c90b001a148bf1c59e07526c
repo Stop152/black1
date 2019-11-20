@@ -35,25 +35,6 @@ public class Practice {
 
 		return average;
 	}
-	
-	public static int getMaxValue(int[] someArray) {
-		
-		int maxEl = 0;
-		for (int i = 0; i < someArray.length; i++){
-			if (someArray[i] > maxEl){
-				maxEl = someArray[i];				
-			}
-		}		
-		
-		return maxEl;
-
-	}
-	
-	// Task 4.1 - declare method getMaxValue(), it should return biggest
-			// element value of array
-			// You should get printed out into console: Maximum is 18.0
-			// int max = getMaxValue(myArrays);
-			// System.out.println("Maximum is " + max);
 
 	public static void main(String[] args) {
 
@@ -78,8 +59,11 @@ public class Practice {
 		
 		System.out.println();
 
-		int mezik = getMaxValue(myArrays) ;
-		System.out.println("Max value = " + mezik);
+		// Task 4.1 - declare method getMaxValue(), it should return biggest
+		// element value of array
+		// You should get printed out into console: Maximum is 18.0
+		// int max = getMaxValue(myArrays);
+		// System.out.println("Maximum is " + max);
 
 		// Task 4.2 - declare method getAvaregeDouble(), it should return sum of
 		// all elements of passed array
