@@ -35,32 +35,26 @@ public class Practice {
 
 		return average;
 	}
-
+	
 	public static int getMaxValue(int[] someArray) {
-
+		
 		int maxEl = 0;
-		for (int i = 0; i < someArray.length; i++) {
-			if (someArray[i] > maxEl) {
-				maxEl = someArray[i];
+		for (int i = 0; i < someArray.length; i++){
+			if (someArray[i] > maxEl){
+				maxEl = someArray[i];				
 			}
-		}
-
+		}		
+		
 		return maxEl;
 
 	}
- 
-	public static double getAvaregeDouble(int[] someArray) {
-
-		int sum = 0;
-		for (int i = 0; i < someArray.length; i++) {
-			sum += someArray[i];
-		}
-
-		double average = sum / someArray.length;
-
-		return average;
-	}
 	
+	// Task 4.1 - declare method getMaxValue(), it should return biggest
+			// element value of array
+			// You should get printed out into console: Maximum is 18.0
+			// int max = getMaxValue(myArrays);
+			// System.out.println("Maximum is " + max);
+
 	public static void main(String[] args) {
 
 		sayHi();
@@ -78,27 +72,20 @@ public class Practice {
 		System.out.println("Sum is " + sum);
 
 		System.out.println();
-
+		
 		int avarege = getAvarege(myArrays);
 		System.out.println("Avarege is " + avarege);
-
-		System.out.println();
-
-		int maxValue = getMaxValue(myArrays);
-		System.out.println("Max value = " + maxValue);
 		
 		System.out.println();
 
-		double getAverageDouble = getAvaregeDouble(myArrays);
-		System.out.println("Avarege double is " + getAverageDouble);
-
-		System.out.println();
+		int mezik = getMaxValue(myArrays) ;
+		System.out.println("Max value = " + mezik);
 
 		// Task 4.2 - declare method getAvaregeDouble(), it should return sum of
 		// all elements of passed array
 		// You should get printed out into console: Average is 9.0
 		// double doubleAvarege = getAvaregeDouble(myArrays);
-		// System.out.println("Average double value is " + doubleAvarege);
+		// System.out.println("Avarege double value is " + doubleAvarege);
 
 		// Task 5 - getArrayDefinedByUser() - should ask user to fill array of 3
 		// elements and return that array

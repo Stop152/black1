@@ -90,7 +90,7 @@ public class Practice {
 		System.out.println();
 
 		double getAverageDouble = getAvaregeDouble(myArrays);
-		System.out.println("Avarege double is " + getAverageDouble);
+		System.out.println("Avarege double is " + avarege);
 
 		System.out.println();
 
