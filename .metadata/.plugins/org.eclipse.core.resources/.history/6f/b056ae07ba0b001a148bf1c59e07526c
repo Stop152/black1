@@ -3,30 +3,18 @@ package com.accenture.lecture13;
 
 public class Practice {
 
-	public void sayHi(){
-		System.out.println("Hello world");
-		
-	}
-	
-	
-	
 	public static void main(String[] args) {
 		int[] myArrays = new int[10];
 		for (int i = 0; i < myArrays.length; i++) {
 			myArrays[i] = i * 2;
-					
+
 		}
-		
-		Practice number1 = new Practice();	
-		number1.sayHi();
-		number1.sayHi();
-		
 
 		// Task 0 - move "Hello world" output into method sayHi() and call it twice
 		// You should get printed out into console:
 		// Hello world
 		// Hello world
-//		System.out.println("Hello world");
+		System.out.println("Hello world");
 		
 		//	Task 1 - print out into console content of myArray, as following 
 		//	0 element is 0

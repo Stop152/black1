@@ -19,8 +19,6 @@ public class Practice {
 		
 		Practice number1 = new Practice();	
 		number1.sayHi();
-		number1.sayHi();
-		
 
 		// Task 0 - move "Hello world" output into method sayHi() and call it twice
 		// You should get printed out into console:
