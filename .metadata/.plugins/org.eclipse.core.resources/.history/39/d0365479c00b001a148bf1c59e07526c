@@ -7,7 +7,7 @@ public class Practice {
 
 	}
 
-	public static void printArray(int[] myArrays) {
+	public static void printArray(int[] myArrays[]) {
 		for (int i = 0; i < myArrays.length; i++) {
 			System.out.println(i + " element is " + myArrays[i]);
 		}
@@ -100,7 +100,10 @@ public class Practice {
 
 	}
 
-	
+	public static void printArray(int[] someArray) {
+		// TODO should print out into console content of someArray
+	}
+
 	public static int getSum(int[] someArray) {
 		// TODO implement method, that it will return sum of all elements of
 		// passed in array 'someArray'
