@@ -17,24 +17,11 @@ public class Practice {
 		int sum = 0;
 
 		for (int i = 0; i < someArray.length; i++) {
-			sum += someArray[i];
+			sum = sum + someArray[i];
 		}
 
 		return sum;
 
-	}
-
-	public static int getAvarege(int[] someArray) {
-		// TODO implement method, that it will return average of all elements of
-		// array 'someArray'
-		int sum = 0;
-		for (int i = 0; i < someArray.length; i++) {
-			sum += someArray[i];
-		}
-
-		int average = sum / someArray.length;
-
-		return average;
 	}
 
 	public static void main(String[] args) {
@@ -42,13 +29,20 @@ public class Practice {
 		sayHi();
 		sayHi();
 		System.out.println();
+		
 
 		int[] myArrays = new int[10];
 		for (int i = 0; i < myArrays.length; i++) {
 			myArrays[i] = i * 2;
 		}
 		printArray(myArrays);
+		
+		
 
+		
+		// Task 2 - getSum() should return sum of all elements of passed array
+		// You should get printed out into console: Sum is 90
+		
 		int sum = getSum(myArrays);
 		System.out.println("Sum is " + sum);
 
@@ -114,6 +108,12 @@ public class Practice {
 		// * hint, think about making Scanner instance(object) as a class static
 		// field and refer to it in your code
 
+	}
+
+	public static int getAvarege(int[] someArray) {
+		// TODO implement method, that it will return average of all elements of
+		// array 'someArray'
+		return 0;
 	}
 
 	public static int[] getArrayDefinedByUser(int numbers) {
