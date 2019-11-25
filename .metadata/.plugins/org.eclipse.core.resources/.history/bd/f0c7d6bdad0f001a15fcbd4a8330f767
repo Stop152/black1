@@ -1,0 +1,13 @@
+package com.acceture.lecture16;
+
+public class Warrior {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

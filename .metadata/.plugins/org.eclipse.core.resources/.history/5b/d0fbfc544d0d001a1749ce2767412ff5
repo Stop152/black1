@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+
+public class Starter {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int[] arrys = new int[3];
+		
+		System.out.println("Arrys length: " +arrys.length);
+		
+		arrys[0] = 1;
+		//arrys[4] = 30;
+		
+	System.out.println(Arrays.toString(arrys));
+	
+	ArrayList<String> arrayList = new ArrayList<>();
+	arrayList.add("Volvo");
+	arrayList.add("Lada");
+	arrayList.add("Tesla");
+	arrayList.add("Skoda");
+	arrayList.add("BMW");
+	
+	System.out.println("Array size is: " +arrayList.size());
+	
+	arrayList.remove(2);
+	System.out.println("Array size is: " +arrayList.size());
+	String elementZero = arrayList.get(0);
+	System.out.println("Element zero is: " +elementZero);
+	ArrayList<Integer> arrayTest = new ArrayList<>();
+	}
+
+}
