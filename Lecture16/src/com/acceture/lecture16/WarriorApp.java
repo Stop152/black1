@@ -2,20 +2,28 @@ package com.acceture.lecture16;
 
 public class WarriorApp {
 
- 
-	public static void main(String[] args) {
-		 
-		Warrior w1=new Warrior("Bobby", 50);
-		w1.restoreHealth (10);
+	public static <anotherWarrior> void main(String[] args) {
+
+		Warrior w1 = new Warrior("Bobby", 15, 30);
+		Warrior w2 = new Warrior("Smith", 15, 40);
+
+				
 		System.out.println(w1);
-		w1.restoreHealth (10);
-		System.out.println(w1);		
-		w1.recievedDamage(80);
+		System.out.println(w2);
+		w1.fight(w2);
+		//w2.fight(w1);
 		System.out.println(w1);
-		w1.restoreHealth (10);
-		System.out.println(w1);
-		
-		
+		System.out.println(w2);
+
+		// w1.restoreHealth (10);
+		// System.out.println(w1);
+		// w1.restoreHealth (10);
+		// System.out.println(w1);
+		// w1.recievedDamage(80);
+		// System.out.println(w1);
+		// w1.restoreHealth (10);
+		// System.out.println(w1);
+
 	}
 
 }
