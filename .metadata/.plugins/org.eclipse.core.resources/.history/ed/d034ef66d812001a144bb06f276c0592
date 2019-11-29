@@ -1,0 +1,14 @@
+package com.accenture.lecture17;
+
+public class Cylinder extends Circle {
+
+	private double heigth;
+
+	Cylinder(double radius, double heigth, String color) {
+		super(radius,color);
+		this.heigth = heigth;
+		
+	}
+	
+}
+

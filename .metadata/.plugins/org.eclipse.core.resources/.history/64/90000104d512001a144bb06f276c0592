@@ -1,0 +1,22 @@
+
+
+
+public class Cylinder {
+
+	protected double heigth;
+	
+	
+	Cylinder (double radius, String color, double heigth){
+		this.radius = radius;
+		this.color = color;
+		this.heigth = heigth;
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

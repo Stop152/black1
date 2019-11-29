@@ -4,24 +4,27 @@ public class Cylinder extends Circle {
 
 	private double heigth;
 
-	Cylinder() {
+	Cylinder(double radius, double heigth, String color) {
+		super(radius, color);
+		this.heigth = heigth;
+
 	}
 
-	Cylinder(double heigth) {
-		this.heigth = heigth;
+	public double getHeigth() {
+		return heigth;
 	}
 
-	Cylinder(double radius, double heigth; String color) {
-		this.radius = radius;
-		this.heigth = heigth;
-		this.color = color;
-
+	public double getCylinderArea() {
+	
+	
+	//public double getArea() {
+		
+		return super.getArea()*2 + super.getArea()*heigth;
 	}
 	
-	Cylinder(double radius, double heigth; String color) {
-		this.radius = radius;
-		this.heigth = heigth;
-		this.color = color;
-
+		
+		public String toString() {
+			return "The " + color + " cylinder with radius " + radius + " and heigth " + heigth + " It' s area is " + getCylinderArea();
+		}
 	}
-}
+

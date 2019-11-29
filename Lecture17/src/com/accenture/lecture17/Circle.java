@@ -9,9 +9,9 @@ public class Circle {
 		//Circle (){
 		//}
 		
-		//Circle (double radius){
-			//this.radius = radius;					
-		//}
+		Circle (double radius){
+			this.radius = radius;					
+		}
 
 		Circle (double radius, String color){
 			this.radius = radius;

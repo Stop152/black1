@@ -6,6 +6,8 @@ public class App {
 
 		System.out.println(new Circle(2, "red"));
 		
+		Cylinder round1 = new Cylinder (3, 4, "blue");
+		System.out.println (round1);
 		
 
 	}
