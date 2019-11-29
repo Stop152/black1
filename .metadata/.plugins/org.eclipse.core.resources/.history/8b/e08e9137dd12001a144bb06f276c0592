@@ -11,8 +11,6 @@ public class AppAuthor {
 		Book book1 = new Book ("Sunrise" , 100, 200, "Marc", "marc@gmail.com", 'm');
 		System.out.println (book1);
 		
-		
-		
 	}
 
 }
