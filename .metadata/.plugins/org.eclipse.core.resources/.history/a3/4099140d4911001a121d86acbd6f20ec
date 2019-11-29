@@ -1,0 +1,13 @@
+package com.accenture.lecture17;
+
+public class getArea extends {Circle()  
+
+	double area;
+}
+	
+	public static void main(String[] args) {
+		 
+		
+	}
+
+}

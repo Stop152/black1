@@ -35,9 +35,6 @@ public class Warrior {
 
 		if (this.isAlive() && warrior.isAlive()) {
 
-			// System.out.println("The warrior " + name
-			// + " is dead!!!! No figth anymore");
-			// } else {
 			this.recievedDamage(warrior.getDamagePower());
 			warrior.recievedDamage(this.getDamagePower());
 

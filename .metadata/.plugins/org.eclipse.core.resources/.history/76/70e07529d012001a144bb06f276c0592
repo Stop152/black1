@@ -1,0 +1,13 @@
+package shop;
+
+
+public class AppEmployee {
+
+	public static void main(String[] args) {
+	  
+		System.out.println(new Employee(22, "John", "Barber", 1000));
+		
+		
+	}
+
+}

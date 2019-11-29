@@ -1,0 +1,17 @@
+package shop;
+
+
+public class AppEmployee {
+
+	public static void main(String[] args) {
+	  
+		Employee e1 = new Employee(22, "John", "Barber", 1000);
+		
+		System.out.println(e1);
+		
+		System.out.println("New salary is " + e1.raiseSalary(10));
+		
+		
+	}
+
+}

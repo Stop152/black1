@@ -4,7 +4,7 @@ public class WarriorApp {
 
 	public static <anotherWarrior> void main(String[] args) {
 
-		Warrior w1 = new Warrior("Bobby", 15, 30);
+		Warrior w1 = new Warrior("Bobby", 15, 15);
 		Warrior w2 = new Warrior("Smith", 15, 40);
 
 				
